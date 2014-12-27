@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/vendor/mocha/mocha.css">
+    <link rel="stylesheet" href="/lib/<>name.file<>.css">
+    <link rel="stylesheet" href="/.tmp/<>name.file<>_spec.css">
+  </head>
+
+  <body>
+    <div id='mocha'></div>
+
+    <!-- TEST FIXTURES -->
+
+  </body>
+
+  <!-- DEPENDENCIES -->
+  <!-- <script type="text/javascript" src="/vendor/..."></script> -->
+
+  <!-- TESTING DEPENDENCIES -->
+  <script type="text/javascript" src="/vendor/mocha/mocha.js"></script>
+  <script type="text/javascript" src="/vendor/chai/chai.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/util/core.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/extend.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/typeOf.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/times_in_words.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/spy.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/call.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/behavior.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/stub.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/mock.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/collection.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/assert.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/sandbox.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/test.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/test_case.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/match.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/format.js"></script>
+  <script type="text/javascript" src="/vendor/sinon/lib/sinon/log_error.js"></script>
+  <script type="text/javascript" src="/vendor/sinon-chai/lib/sinon-chai.js"></script>
+  <script type="text/javascript" src="/testem.js"></script>
+
+  <script>
+    mocha.setup('bdd');
+    window.expect = chai.expect;
+  </script>
+
+  <!-- FOOTER LIBRARIES -->
+  <script type="text/javascript" src="/lib/<>name.file<>.js"></script>
+
+  <!-- SPECS -->
+  <script type="text/javascript" src="/.tmp/<>name.file<>_spec.js"></script>
+
+  <script>
+    mocha.run()
+  </script>
+</html>

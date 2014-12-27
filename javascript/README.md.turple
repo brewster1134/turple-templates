@@ -1,0 +1,75 @@
+[![Gem Version](https://badge.fury.io/rb/<>name.file<>.svg)](http://badge.fury.io/rb/<>name.file<>)
+[![Build Status](https://travis-ci.org/<>github.username<>/<>name.file<>.svg?branch=master)](https://travis-ci.org/<>github.username<>/<>name.file<>)
+[![Coverage Status](https://coveralls.io/repos/<>github.username<>/<>name.file<>/badge.png)](https://coveralls.io/r/<>github.username<>/<>name.file<>)
+
+# <>name.friendly<>
+
+### Dependencies
+*
+
+---
+## Markup
+> HTML
+
+>```html
+<div>
+</div>
+```
+
+> CSS
+>```sass
+.<>name.file<>
+```
+
+> JS
+>```coffee
+->
+```
+
+---
+## Methods
+> **name** _description_
+
+> _Arguments_
+>```yaml
+arg: [Type] description
+  default:
+```
+
+> _Usage_
+>```coffee
+->
+```
+
+---
+## Events
+> **name** _description_
+
+> _Arguments_
+>```yaml
+arg: [Type] description
+  default:
+```
+
+> _Usage_
+>```coffee
+->
+```
+
+## Development
+### Dependencies
+
+```shell
+gem install yuyi
+yuyi -m https://raw.githubusercontent.com/<>github.username<>/<>name.file<>/master/yuyi_menu
+bundle install
+npm install
+bower install
+```
+
+>Do **NOT** modify any `.js` files!  Modify the `src` files and Testem will watch for changes and compile them to the correct directory.
+
+### Compiling & Testing
+```shell
+testem
+```

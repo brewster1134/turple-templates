@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title><>name.friendly<> Demo</title>
+    <link type="text/css" rel="stylesheet" media="all" href="../lib/<>name.file<>.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="<>name.file<>_demo.css"/>
+  </head>
+  <body>
+  </body>
+
+  <!-- DEPENDENCIES -->
+  <!-- <script type="text/javascript" src="../vendor/..."></script> -->
+
+  <script type="text/javascript" src="../lib/<>name.file<>.js"></script>
+  <script type="text/javascript" src="<>name.file<>_demo.js"></script>
+</html>
