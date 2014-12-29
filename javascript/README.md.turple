@@ -61,7 +61,7 @@ arg: [Type] description
 
 ```shell
 gem install yuyi
-yuyi -m https://raw.githubusercontent.com/<>github.username<>/<>name.file<>/master/yuyi_menu
+yuyi -m https://raw.githubusercontent.com/<>github.username<>/<>name.file<>/master/Yuyifile
 bundle install
 npm install
 bower install
