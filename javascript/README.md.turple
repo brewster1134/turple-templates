@@ -1,8 +1,10 @@
 [![Gem Version](https://badge.fury.io/rb/<>name.file<>.svg)](http://badge.fury.io/rb/<>name.file<>)
 [![Build Status](https://travis-ci.org/<>github.username<>/<>name.file<>.svg?branch=master)](https://travis-ci.org/<>github.username<>/<>name.file<>)
 [![Coverage Status](https://coveralls.io/repos/<>github.username<>/<>name.file<>/badge.png)](https://coveralls.io/r/<>github.username<>/<>name.file<>)
+[![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png)](http://www.wtfpl.net)
 
 # <>name.friendly<>
+# <>description<>
 
 ### Dependencies
 *

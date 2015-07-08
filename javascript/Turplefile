@@ -4,3 +4,6 @@ configuration:
   path_separator: .
   content_regex: '<>([a-z_\.]+)<>'
   content_separator: .
+data_map:
+  year: The copyright year
+  description: Short summary for the library
